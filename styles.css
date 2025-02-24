@@ -1,33 +1,26 @@
 /* Your CSS Code here. */
+body{
+	margin:50px;
+	text-align:center;
+	}
 table{
-	border:1px solid black;
+	border:2px solid black;
+	margin: 20px, auto;
+}
+table table{
+	border:2px solid black
+	margin: 10px, auto;
 }
 th{
-	border:1px solid black;
-}
+	padding:10px;
+	border:2px solid black
 tr{
-	border:1px solid black;
+	text-align:center;
+	padding:10px;
+	border:2px solid black
 }
 td{
-	border:1px solid black;
-}
-.four{
-	border:1px solid black;
-	display:grid;
-	position:bottom-right
-}
-.three{
-	border:1px solid black;
-	display:grid;
-	position:bottom-right
-}
-.two{
-	border:1px solid black;
-	display:grid;
-	position:bottom-right
-}
-.one{
-	border:1px solid black;
-	display:grid;
-	position:bottom-right
+	text-align:center;
+	padding:10px;
+	border:2px solid black
 }
